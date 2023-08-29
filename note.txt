@@ -1,0 +1,5 @@
+template choose Qt Widgets Application
+Build Syste choose CMake
+Base class choose QWidget, uncheck Generate form checkbox
+Kit choose MSVC2019
+VCS git
