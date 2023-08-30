@@ -2,8 +2,7 @@
 #define CONTENTWIDGET_H
 
 #include <QWidget>
-//#include <QtCharts/QtCharts>  // without using QT_FORWARD_DECLARE_CLASS instead of using #include <QtCharts/QtCharts> replace
-#include <QChart>
+#include <QChart>  //without using QT_FORWARD_DECLARE_CLASS instead of using #include <QChart> replace
 #include <QChartView>
 
 class ContentWidget : public QWidget

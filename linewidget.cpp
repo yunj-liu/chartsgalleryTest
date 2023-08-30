@@ -1,4 +1,4 @@
-#include "linewidget.h"
+﻿#include "linewidget.h"
 #include <QLineSeries>
 
 LineWidget::LineWidget(QWidget *parent) : ContentWidget(parent)
@@ -25,6 +25,6 @@ LineWidget::LineWidget(QWidget *parent) : ContentWidget(parent)
     //![3]
 
     //![4]
-    createDefaultChartView(chart);
+    createDefaultChartView(chart);  //createDefaultChartView is in the ContentWidget class, which is the base class for LineWidget
     //![4]
 }
