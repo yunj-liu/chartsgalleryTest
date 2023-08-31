@@ -1,7 +1,7 @@
 ﻿#include "linewidget.h"
 #include <QLineSeries>
 
-LineWidget::LineWidget(QWidget *parent) : ContentWidget(parent)
+LineWidget::LineWidget(QWidget *parent) : ContentWidget(parent)  //parent: QWidget->ConetentWidget->LineWidget
 {
     //![1]
     auto series = new QLineSeries;

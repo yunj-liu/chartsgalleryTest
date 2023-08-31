@@ -46,6 +46,8 @@ void ContentWidget::resizeEvent(QResizeEvent *)
 // to avoid duplicating code
 void ContentWidget::createDefaultChartView(QChart *chart)
 {
+    //Constructs a chart view object with the parent 'this' to display the chart 'chart'.
+    //The ownership of the chart is passed to the chart view.
     m_defaultChartView = new QChartView(chart, this);
     m_defaultChartView->setRenderHint(QPainter::Antialiasing);
 }

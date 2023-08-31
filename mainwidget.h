@@ -23,7 +23,7 @@ protected:
 private:
     enum Example{
         //BoxPlotChart,
-        //ChartThemes,
+        ChartThemes,
         //LineChart,
         //SplineChart
         LineChart
