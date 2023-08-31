@@ -1,5 +1,6 @@
 ﻿#include "mainwidget.h"
 #include "linewidget.h"
+#include "themewidget.h"
 
 #include <QApplication>  //qApp need this include
 #include <QHBoxLayout>

@@ -25,7 +25,7 @@ set(PROJECT_SOURCES
     mainicon.rc
     themewidget.cpp
     themewidget.h
-)
+    themewidget.ui)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
   qt_add_executable(03chartsgalleryTest MANUAL_FINALIZATION ${PROJECT_SOURCES}

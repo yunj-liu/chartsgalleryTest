@@ -1,4 +1,4 @@
-#ifndef THEMEWIDGET_H
+﻿#ifndef THEMEWIDGET_H
 #define THEMEWIDGET_H
 
 #include "contentwidget.h"
@@ -7,6 +7,8 @@
 typedef QPair<QPointF, QString> Data;
 typedef QList<Data> DataList;
 typedef QList<DataList> DataTable;
+
+QT_FORWARD_DECLARE_CLASS(Ui_ThemeWidgetForm);  //the name 'ThemeWidgetForm' is pick up when design ui,*.ui open with plain editor can watch it
 
 
 class ThemeWidget: public ContentWidget
@@ -39,7 +41,7 @@ private:
     QList<QChartView *> m_charts;
     DataTable m_dataTable;
 
-    //Ui_ThemeWidgetForm *m_ui;
+    Ui_ThemeWidgetForm *m_ui;
 };
 
 #endif // THEMEWIDGET_H
