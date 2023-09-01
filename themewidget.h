@@ -26,7 +26,7 @@ private:
     void populateThemeBox();
     void populateAnimationBox();
     void populateLegendBox();
-    void connectSignals();
+    void connectSignals();  //No implement, instead of use themewidget.ui
     QChart *createAreaChart() const;
     QChart *createBarChart(int valueCount) const;
     QChart *createPieChart() const;
